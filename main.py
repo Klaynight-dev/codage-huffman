@@ -144,12 +144,12 @@ def construire_codes_huffman(noeud, code="", mapping=None):
 
     return mapping
 
-# Exemple d'utilisation
-texte = "bonjour le monde"
-texte_encode, codes_huffman = encoder_huffman(texte)
-print(f"codes_huffman = {codes_huffman}")
-texte_decode = decoder_huffman(texte_encode, codes_huffman)
-
-print(f"Texte original: {texte}")
-print(f"Texte encodé: {texte_encode}")
-print(f"Texte décodé: {texte_decode}")
+# # Exemple d'utilisation
+# texte = "bonjour le monde"
+# texte_encode, codes_huffman = encoder_huffman(texte)
+# print(f"codes_huffman = {codes_huffman}")
+# texte_decode = decoder_huffman(texte_encode, codes_huffman)
+# 
+# print(f"Texte original: {texte}")
+# print(f"Texte encodé: {texte_encode}")
+# print(f"Texte décodé: {texte_decode}")
