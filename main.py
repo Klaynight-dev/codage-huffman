@@ -1,5 +1,5 @@
 import os
-import main
+import tools
 
 Fichier = open("texte.txt","rb")
 contenu = Fichier.read().decode("utf-8")
